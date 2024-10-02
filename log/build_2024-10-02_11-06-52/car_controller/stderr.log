@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:53 (file):
+  file INSTALL cannot find
+  "/home/albert/ag_car_ws/src/car_controller/scripts/joystick_control_node.py":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,50 @@
+[0.189s] Invoking command in '/home/albert/ag_car_ws/build/car_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_cartographer -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_cartographer
+[0.423s] -- The C compiler identification is GNU 11.4.0
+[0.639s] -- The CXX compiler identification is GNU 11.4.0
+[0.704s] -- Detecting C compiler ABI info
+[0.997s] -- Detecting C compiler ABI info - done
+[1.075s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.076s] -- Detecting C compile features
+[1.078s] -- Detecting C compile features - done
+[1.092s] -- Detecting CXX compiler ABI info
+[1.422s] -- Detecting CXX compiler ABI info - done
+[1.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.514s] -- Detecting CXX compile features
+[1.517s] -- Detecting CXX compile features - done
+[1.565s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.365s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[3.085s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.485s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.492s] -- Added test 'lint_cmake' to check CMake code style
+[3.500s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.508s] -- Added test 'xmllint' to check XML markup files
+[3.521s] -- Configuring done (3.3s)
+[3.530s] -- Generating done (0.0s)
+[3.530s] -- Build files have been written to: /home/albert/ag_car_ws/build/car_cartographer
+[3.540s] Invoked command in '/home/albert/ag_car_ws/build/car_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_cartographer -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_cartographer
+[3.547s] Invoking command in '/home/albert/ag_car_ws/build/car_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_cartographer -- -j8 -l8
+[3.595s] Invoked command in '/home/albert/ag_car_ws/build/car_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_cartographer -- -j8 -l8
+[3.696s] Invoking command in '/home/albert/ag_car_ws/build/car_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_cartographer
+[3.708s] -- Install configuration: ""
+[3.708s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/config
+[3.708s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/config/car_lds_2d.lua
+[3.709s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/launch
+[3.709s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/launch/cartographer.launch.py
+[3.710s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/rviz
+[3.710s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/rviz/car_cartographer.rviz
+[3.710s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/ament_index/resource_index/package_run_dependencies/car_cartographer
+[3.711s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/ament_index/resource_index/parent_prefix_path/car_cartographer
+[3.712s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/environment/ament_prefix_path.sh
+[3.713s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/environment/ament_prefix_path.dsv
+[3.714s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/environment/path.sh
+[3.716s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/environment/path.dsv
+[3.717s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/local_setup.bash
+[3.718s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/local_setup.sh
+[3.719s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/local_setup.zsh
+[3.719s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/local_setup.dsv
+[3.720s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/package.dsv
+[3.721s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/ament_index/resource_index/packages/car_cartographer
+[3.721s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/cmake/car_cartographerConfig.cmake
+[3.721s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/cmake/car_cartographerConfig-version.cmake
+[3.722s] -- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/package.xml
+[3.725s] Invoked command in '/home/albert/ag_car_ws/build/car_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_cartographer

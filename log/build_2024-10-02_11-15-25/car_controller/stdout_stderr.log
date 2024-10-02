@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/config
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/config/car_controllers.yaml
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/config/ps3_controller_config.yaml
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/config/joystick_control_node.py
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/launch
+-- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/launch/controller.launch.py
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/lib/car_controller/joystick_control_node.py
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/ament_index/resource_index/package_run_dependencies/car_controller
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/ament_index/resource_index/parent_prefix_path/car_controller
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/environment/path.sh
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/environment/path.dsv
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/local_setup.bash
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/local_setup.sh
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/local_setup.zsh
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/local_setup.dsv
+-- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/package.dsv
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/ament_index/resource_index/packages/car_controller
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/cmake/car_controllerConfig.cmake
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/cmake/car_controllerConfig-version.cmake
+-- Up-to-date: /home/albert/ag_car_ws/install/car_controller/share/car_controller/package.xml

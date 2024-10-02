@@ -1,0 +1,53 @@
+[0.031s] Invoking command in '/home/albert/ag_car_ws/build/car_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_nav2 -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_nav2
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.196s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.390s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.428s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.638s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.939s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.123s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.127s] -- Added test 'lint_cmake' to check CMake code style
+[1.130s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.135s] -- Added test 'xmllint' to check XML markup files
+[1.141s] -- Configuring done (1.1s)
+[1.144s] -- Generating done (0.0s)
+[1.145s] -- Build files have been written to: /home/albert/ag_car_ws/build/car_nav2
+[1.149s] Invoked command in '/home/albert/ag_car_ws/build/car_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_nav2 -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_nav2
+[1.151s] Invoking command in '/home/albert/ag_car_ws/build/car_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_nav2 -- -j8 -l8
+[1.173s] Invoked command in '/home/albert/ag_car_ws/build/car_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_nav2 -- -j8 -l8
+[1.213s] Invoking command in '/home/albert/ag_car_ws/build/car_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_nav2
+[1.217s] -- Install configuration: ""
+[1.217s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/launch
+[1.217s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/launch/car_nav2.launch.py
+[1.217s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/map
+[1.217s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/map/home.pgm
+[1.217s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/map/home.yaml
+[1.217s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/param
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/param/car_nav2.yaml
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/rviz
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/rviz/car_config.rviz
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/ament_index/resource_index/package_run_dependencies/car_nav2
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/ament_index/resource_index/parent_prefix_path/car_nav2
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/environment/ament_prefix_path.sh
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/environment/ament_prefix_path.dsv
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/environment/path.sh
+[1.218s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/environment/path.dsv
+[1.219s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/local_setup.bash
+[1.219s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/local_setup.sh
+[1.219s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/local_setup.zsh
+[1.219s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/local_setup.dsv
+[1.219s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/package.dsv
+[1.219s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/ament_index/resource_index/packages/car_nav2
+[1.219s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/cmake/car_nav2Config.cmake
+[1.219s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/cmake/car_nav2Config-version.cmake
+[1.220s] -- Installing: /home/albert/ag_car_ws/install/car_nav2/share/car_nav2/package.xml
+[1.221s] Invoked command in '/home/albert/ag_car_ws/build/car_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_nav2

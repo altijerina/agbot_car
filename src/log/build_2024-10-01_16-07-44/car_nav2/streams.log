@@ -1,0 +1,42 @@
+[0.096s] Invoking command in '/home/albert/ag_car_ws/src/build/car_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_nav2 -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/src/install/car_nav2
+[0.315s] -- The C compiler identification is GNU 11.4.0
+[0.560s] -- The CXX compiler identification is GNU 11.4.0
+[0.621s] -- Detecting C compiler ABI info
+[0.958s] -- Detecting C compiler ABI info - done
+[1.040s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.041s] -- Detecting C compile features
+[1.042s] -- Detecting C compile features - done
+[1.058s] -- Detecting CXX compiler ABI info
+[1.388s] -- Detecting CXX compiler ABI info - done
+[1.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.475s] -- Detecting CXX compile features
+[1.477s] -- Detecting CXX compile features - done
+[1.525s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.358s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[3.304s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.023s] -- Added test 'lint_cmake' to check CMake code style
+[4.039s] -- Added test 'xmllint' to check XML markup files
+[4.064s] -- Configuring done (4.0s)
+[4.079s] -- Generating done (0.0s)
+[4.083s] -- Build files have been written to: /home/albert/ag_car_ws/src/build/car_nav2
+[4.095s] Invoked command in '/home/albert/ag_car_ws/src/build/car_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_nav2 -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/src/install/car_nav2
+[4.102s] Invoking command in '/home/albert/ag_car_ws/src/build/car_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/src/build/car_nav2 -- -j8 -l8
+[4.192s] Invoked command in '/home/albert/ag_car_ws/src/build/car_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/src/build/car_nav2 -- -j8 -l8
+[4.348s] Invoking command in '/home/albert/ag_car_ws/src/build/car_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/src/build/car_nav2
+[4.358s] -- Install configuration: ""
+[4.359s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/ament_index/resource_index/package_run_dependencies/car_nav2
+[4.360s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/ament_index/resource_index/parent_prefix_path/car_nav2
+[4.368s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/environment/ament_prefix_path.sh
+[4.368s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/environment/ament_prefix_path.dsv
+[4.368s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/environment/path.sh
+[4.369s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/environment/path.dsv
+[4.369s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/local_setup.bash
+[4.369s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/local_setup.sh
+[4.370s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/local_setup.zsh
+[4.370s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/local_setup.dsv
+[4.373s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/package.dsv
+[4.373s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/ament_index/resource_index/packages/car_nav2
+[4.374s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/cmake/car_nav2Config.cmake
+[4.374s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/cmake/car_nav2Config-version.cmake
+[4.374s] -- Installing: /home/albert/ag_car_ws/src/install/car_nav2/share/car_nav2/package.xml
+[4.378s] Invoked command in '/home/albert/ag_car_ws/src/build/car_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/src/build/car_nav2

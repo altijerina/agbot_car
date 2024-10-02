@@ -1,0 +1,96 @@
+joy_node:
+  ros__parameters:
+    # The device path where the joystick is located
+    device_name: "/dev/input/js0"
+    enable_analog: false
+    enable_button: true
+    enable_axis: true
+    axis_deadzone: 0.1    
+
+    # Parameters for joystick axis configuration
+    axes:
+      - 1  # Left stick horizontal axis
+      - 0  # Left stick vertical axis
+      - 3  # Right stick horizontal axis
+      - 2  # Right stick vertical axis
+      - 4  # Left trigger
+      - 5  # Right trigger
+
+    # Parameters for joystick button configuration
+    buttons:
+      - 0  # Cross (A) button
+      - 1  # Circle (B) button
+      - 2  # Square (X) button
+      - 3  # Triangle (Y) button
+      - 4  # L1 button
+      - 5  # R1 button
+      - 6  # L2 button
+      - 7  # R2 button
+      - 8  # Select button
+      - 9  # Start button
+      - 10 # L3 button
+      - 11 # R3 button
+
+    # Scale factor for joystick axes
+    axis_scale:
+      - 1.0  # Scale for left stick horizontal axis
+      - 1.0  # Scale for left stick vertical axis
+      - 1.0  # Scale for right stick horizontal axis
+      - 1.0  # Scale for right stick vertical axis
+      - 1.0  # Scale for left trigger
+      - 1.0  # Scale for right trigger
+
+    # Deadzone for joystick axes
+    axis_deadzone:
+      - 0.1  # Deadzone for left stick horizontal axis
+      - 0.1  # Deadzone for left stick vertical axis
+      - 0.1  # Deadzone for right stick horizontal axis
+      - 0.1  # Deadzone for right stick vertical axis
+      - 0.1  # Deadzone for left trigger
+      - 0.1  # Deadzone for right trigger
+
+    # Button configuration
+    button_mapping:
+      # Example button mappings; customize as needed
+      cross: "0"
+      circle: "1"
+      square: "2"
+      triangle: "3"
+      l1: "4"
+      r1: "5"
+      l2: "6"
+      r2: "7"
+      select: "8"
+      start: "9"
+      l3: "10"
+      r3: "11"
+
+ros__parameters:
+  # Joystick topic
+  joy_topic: "/joy"
+
+  # Remap the joystick topic if necessary
+  remappings:
+    - ["/joy", "/custom_joy_topic"]
+
+  # Configuration for joystick axes and buttons
+  joystick_mapping:
+    linear_x: 
+      axis: 1  # Left stick Y-axis (forward/backward)
+      scale: 1.0  # Scale factor for linear velocity
+    linear_y: 
+      axis: 0  # Left stick X-axis (left/right)
+      scale: 1.0  # Scale factor for linear velocity
+    angular_z: 
+      axis: 3  # Right stick X-axis (turning)
+      scale: 1.0  # Scale factor for angular velocity
+
+    # Button mapping for teleoperation commands
+    buttons:
+      increase_speed: 
+        button: 4  # Button to increase speed ( R1)
+      decrease_speed: 
+        button: 5  # Button to decrease speed (L1)
+      stop:
+        button: 2  
+

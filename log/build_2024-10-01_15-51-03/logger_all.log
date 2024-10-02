@@ -1,0 +1,219 @@
+[0.559s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.559s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7abe21a67820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7abe21b53df0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7abe21b53df0>>, mixin_verb=('build',))
+[1.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.602s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/albert/ag_car_ws'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'ignore'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'ignore_ament_install'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extensions ['colcon_pkg']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'colcon_pkg'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extensions ['colcon_meta']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'colcon_meta'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extensions ['ros']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_controller) by extension 'ros'
+[1.673s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_controller' with type 'ros.ament_cmake' and name 'car_controller'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extensions ['ignore', 'ignore_ament_install']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extension 'ignore'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extension 'ignore_ament_install'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extensions ['colcon_pkg']
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extension 'colcon_pkg'
+[1.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extensions ['colcon_meta']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extension 'colcon_meta'
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extensions ['ros']
+[1.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_description) by extension 'ros'
+[1.680s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_description' with type 'ros.ament_cmake' and name 'car_description'
+[1.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.791s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/albert/ag_car_ws/install/car_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.791s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/albert/ag_car_ws/install/car_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.808s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/albert/ag_car_ws/install/car_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.808s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/albert/ag_car_ws/install/car_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.812s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/albert/ag_car_ws/install
+[1.816s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/albert/ag_arm_ws/install
+[1.824s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/albert/ws_moveit2/install
+[1.827s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/albert/umov_ws/install
+[1.828s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/albert/unav_ws/install
+[1.831s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/albert/udem2_ws/install
+[1.835s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/albert/udem_ws/install
+[1.867s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/albert/bcdc_ws/install
+[1.870s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/albert/arduinobot_ws/install
+[1.877s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/albert/rad_ws/install
+[1.881s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/albert/dev_ws/install
+[1.887s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 434 installed packages in /opt/ros/humble
+[1.898s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.140s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_args' from command line to 'None'
+[2.140s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_target' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.141s] Level 5:colcon.colcon_core.verb:set package 'car_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.141s] DEBUG:colcon.colcon_core.verb:Building package 'car_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/albert/ag_car_ws/build/car_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/albert/ag_car_ws/install/car_controller', 'merge_install': False, 'path': '/home/albert/ag_car_ws/src/car_controller', 'symlink_install': False, 'test_result_base': None}
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'cmake_args' from command line to 'None'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'cmake_target' from command line to 'None'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.142s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.143s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.143s] Level 5:colcon.colcon_core.verb:set package 'car_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.143s] DEBUG:colcon.colcon_core.verb:Building package 'car_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/albert/ag_car_ws/build/car_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/albert/ag_car_ws/install/car_description', 'merge_install': False, 'path': '/home/albert/ag_car_ws/src/car_description', 'symlink_install': False, 'test_result_base': None}
+[2.143s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.147s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/albert/ag_car_ws/src/car_controller' with build type 'ament_cmake'
+[2.147s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/albert/ag_car_ws/src/car_controller'
+[2.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/albert/ag_car_ws/src/car_description' with build type 'ament_cmake'
+[2.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/albert/ag_car_ws/src/car_description'
+[2.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/ag_car_ws/build/car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_controller -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_controller
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/ag_car_ws/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_description -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_description
+[4.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/ag_car_ws/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_description -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_description
+[4.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/ag_car_ws/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_description -- -j8 -l8
+[4.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/ag_car_ws/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_description -- -j8 -l8
+[4.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/ag_car_ws/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_description
+[4.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_description)
+[4.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/ag_car_ws/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_description
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description' for CMake module files
+[4.298s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description' for CMake config files
+[4.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_description', 'cmake_prefix_path')
+[4.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/ag_car_ws/install/car_description/share/car_description/hook/cmake_prefix_path.ps1'
+[4.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/ag_car_ws/install/car_description/share/car_description/hook/cmake_prefix_path.dsv'
+[4.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/ag_car_ws/install/car_description/share/car_description/hook/cmake_prefix_path.sh'
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description/bin'
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description/lib/pkgconfig/car_description.pc'
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description/lib/python3.10/site-packages'
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description/bin'
+[4.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_description/share/car_description/package.ps1'
+[4.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/ag_car_ws/install/car_description/share/car_description/package.dsv'
+[4.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_description/share/car_description/package.sh'
+[4.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_description/share/car_description/package.bash'
+[4.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_description/share/car_description/package.zsh'
+[4.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/ag_car_ws/install/car_description/share/colcon-core/packages/car_description)
+[4.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_description)
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description' for CMake module files
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description' for CMake config files
+[4.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_description', 'cmake_prefix_path')
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/ag_car_ws/install/car_description/share/car_description/hook/cmake_prefix_path.ps1'
+[4.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/ag_car_ws/install/car_description/share/car_description/hook/cmake_prefix_path.dsv'
+[4.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/ag_car_ws/install/car_description/share/car_description/hook/cmake_prefix_path.sh'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description/bin'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description/lib/pkgconfig/car_description.pc'
+[4.365s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description/lib/python3.10/site-packages'
+[4.365s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_description/bin'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_description/share/car_description/package.ps1'
+[4.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/ag_car_ws/install/car_description/share/car_description/package.dsv'
+[4.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_description/share/car_description/package.sh'
+[4.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_description/share/car_description/package.bash'
+[4.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_description/share/car_description/package.zsh'
+[4.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/ag_car_ws/install/car_description/share/colcon-core/packages/car_description)
+[5.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/ag_car_ws/build/car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_controller -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_controller
+[5.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/ag_car_ws/build/car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_controller -- -j8 -l8
+[5.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/ag_car_ws/build/car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_controller -- -j8 -l8
+[5.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/albert/ag_car_ws/build/car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_controller
+[5.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_controller)
+[5.795s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller' for CMake module files
+[5.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/albert/ag_car_ws/build/car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_controller
+[5.796s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller' for CMake config files
+[5.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_controller', 'cmake_prefix_path')
+[5.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/ag_car_ws/install/car_controller/share/car_controller/hook/cmake_prefix_path.ps1'
+[5.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/ag_car_ws/install/car_controller/share/car_controller/hook/cmake_prefix_path.dsv'
+[5.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/ag_car_ws/install/car_controller/share/car_controller/hook/cmake_prefix_path.sh'
+[5.799s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller/bin'
+[5.799s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller/lib/pkgconfig/car_controller.pc'
+[5.800s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller/lib/python3.10/site-packages'
+[5.800s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller/bin'
+[5.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.ps1'
+[5.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.dsv'
+[5.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.sh'
+[5.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.bash'
+[5.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.zsh'
+[5.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/ag_car_ws/install/car_controller/share/colcon-core/packages/car_controller)
+[5.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_controller)
+[5.857s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller' for CMake module files
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller' for CMake config files
+[5.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_controller', 'cmake_prefix_path')
+[5.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/ag_car_ws/install/car_controller/share/car_controller/hook/cmake_prefix_path.ps1'
+[5.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/albert/ag_car_ws/install/car_controller/share/car_controller/hook/cmake_prefix_path.dsv'
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/albert/ag_car_ws/install/car_controller/share/car_controller/hook/cmake_prefix_path.sh'
+[5.861s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller/bin'
+[5.861s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller/lib/pkgconfig/car_controller.pc'
+[5.861s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller/lib/python3.10/site-packages'
+[5.862s] Level 1:colcon.colcon_core.environment:checking '/home/albert/ag_car_ws/install/car_controller/bin'
+[5.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.ps1'
+[5.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.dsv'
+[5.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.sh'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.bash'
+[5.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/albert/ag_car_ws/install/car_controller/share/car_controller/package.zsh'
+[5.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/albert/ag_car_ws/install/car_controller/share/colcon-core/packages/car_controller)
+[5.866s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.867s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.878s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.892s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.893s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/ag_car_ws/install/local_setup.ps1'
+[5.895s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/albert/ag_car_ws/install/_local_setup_util_ps1.py'
+[5.898s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/ag_car_ws/install/setup.ps1'
+[5.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/ag_car_ws/install/local_setup.sh'
+[5.913s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/albert/ag_car_ws/install/_local_setup_util_sh.py'
+[5.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/ag_car_ws/install/setup.sh'
+[5.923s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/ag_car_ws/install/local_setup.bash'
+[5.924s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/ag_car_ws/install/setup.bash'
+[5.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/albert/ag_car_ws/install/local_setup.zsh'
+[5.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/albert/ag_car_ws/install/setup.zsh'

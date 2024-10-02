@@ -1,0 +1,358 @@
+<sdf version='1.7'>
+  <model name='agbot_car'>
+    <link name='base_footprint'>
+      <inertial>
+        <pose>0.004294 0 0.10916 0 -0 0</pose>
+        <mass>18.306</mass>
+        <inertia>
+          <ixx>1.34192</ixx>
+          <ixy>0</ixy>
+          <ixz>0.00137098</ixz>
+          <iyy>1.40503</iyy>
+          <iyz>0</iyz>
+          <izz>1.13075</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_footprint_fixed_joint_lump__base_link_collision'>
+        <pose>0 0 0.109 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.495 0.2475 0.165</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__caster_wheel_link_collision_1'>
+        <pose>0.15 0 0.034 0 -0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.034</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__mast_link_collision_2'>
+        <pose>0.175 0 0.184 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.05 0.1</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__laser_link_collision_3'>
+        <pose>0.175 0 0.284 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.1</length>
+            <radius>0.025</radius>
+          </cylinder>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_footprint_fixed_joint_lump__rgb_camera_link_collision_4'>
+        <pose>0.425 0 0.169 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.0025 0.0025 0.0025</scale>
+            <uri>file:///home/albert/rad_ws/install/agbot_full_description/share/agbot_full_description/meshes/pi_camera.STL</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='base_footprint_fixed_joint_lump__base_link_visual'>
+        <pose>0 0 0.109 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.45 0.225 0.15</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__caster_wheel_link_visual_1'>
+        <pose>0.15 0 0.034 0 -0 0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.034</radius>
+          </sphere>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__mast_link_visual_2'>
+        <pose>0.175 0 0.234 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.05 0.1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Purple</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__laser_link_visual_3'>
+        <pose>0.175 0 0.284 0 -0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.1</length>
+            <radius>0.025</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+      <visual name='base_footprint_fixed_joint_lump__rgb_camera_link_visual_4'>
+        <pose>0.225 -0.035 0.204 0 1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.0025 0.0025 0.0025</scale>
+            <uri>file:///home/albert/rad_ws/install/agbot_full_description/share/agbot_full_description/meshes/pi_camera.STL</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/SkyBlue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='laser' type='ray'>
+        <visualize>1</visualize>
+        <update_rate>10</update_rate>
+        <ray>
+          <scan>
+            <horizontal>
+              <samples>640</samples>
+              <min_angle>-3.14</min_angle>
+              <max_angle>3.14</max_angle>
+              <resolution>1</resolution>
+            </horizontal>
+            <vertical>
+              <samples>1</samples>
+              <min_angle>0</min_angle>
+              <max_angle>0</max_angle>
+            </vertical>
+          </scan>
+          <range>
+            <min>0.3</min>
+            <max>12</max>
+          </range>
+        </ray>
+        <plugin name='laser_controller' filename='libgazebo_ros_ray_sensor.so'>
+          <ros>
+            <argument>~/out:=scan</argument>
+          </ros>
+          <output_type>sensor_msgs/LaserScan</output_type>
+          <frame_name>laser_frame</frame_name>
+        </plugin>
+        <pose>0.175 0 0.284 0 -0 0</pose>
+      </sensor>
+      <sensor name='camera_sensor' type='camera'>
+        <visualize>1</visualize>
+        <update_rate>60</update_rate>
+        <camera>
+          <horizontal_fov>1.089</horizontal_fov>
+          <image>
+            <format>R8G8B8</format>
+            <width>1024</width>
+            <height>768</height>
+          </image>
+          <clip>
+            <near>0.05</near>
+            <far>8</far>
+          </clip>
+        </camera>
+        <plugin name='camera_controller_base' filename='libgazebo_ros_camera.so'>
+          <frame_name>rgb_camera_optical_b</frame_name>
+        </plugin>
+        <pose>0.225 0 0.169 0 -0 0</pose>
+      </sensor>
+    </link>
+    <joint name='left_rear_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0 0 -0.12 0 -0 0</pose>
+      <parent>base_footprint</parent>
+      <child>left_rear_wheel_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='left_rear_wheel_link'>
+      <pose relative_to='left_rear_wheel_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 1.5708 -1.5708 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.000497333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000497333</iyy>
+          <iyz>0</iyz>
+          <izz>0.000578</izz>
+        </inertia>
+      </inertial>
+      <collision name='left_rear_wheel_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.002 0.002 0.002</scale>
+            <uri>file:///home/albert/rad_ws/install/agbot_full_description/share/agbot_full_description/meshes/left_tire.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='left_rear_wheel_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.002 0.002 0.002</scale>
+            <uri>file:///home/albert/rad_ws/install/agbot_full_description/share/agbot_full_description/meshes/left_tire.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <joint name='right_rear_wheel_joint' type='revolute'>
+      <pose relative_to='base_footprint'>0 0 0.188 0 -0 0</pose>
+      <parent>base_footprint</parent>
+      <child>right_rear_wheel_link</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='right_rear_wheel_link'>
+      <pose relative_to='right_rear_wheel_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0 1.5708 -1.5708 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.000497333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000497333</iyy>
+          <iyz>0</iyz>
+          <izz>0.000578</izz>
+        </inertia>
+      </inertial>
+      <collision name='right_rear_wheel_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.002 0.002 0.002</scale>
+            <uri>file:///home/albert/rad_ws/install/agbot_full_description/share/agbot_full_description/meshes/right_tire.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.8</mu>
+              <mu2>0.8</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='right_rear_wheel_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.002 0.002 0.002</scale>
+            <uri>file:///home/albert/rad_ws/install/agbot_full_description/share/agbot_full_description/meshes/right_tire.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <static>0</static>
+    <plugin name='differential_drive_controller' filename='libgazebo_ros_diff_drive.so'>
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+      <parameters>/home/albert/ag_car_ws/install/car_controller/share/car_controller/config/car_controllers.yaml</parameters>
+      <controller_manager_prefix_node_name>controller_manager</controller_manager_prefix_node_name>
+      <update_rate>100</update_rate>
+      <num_wheel_pairs>2</num_wheel_pairs>
+      <left_joint>left_front_wheel_joint</left_joint>
+      <right_joint>right_front_wheel_joint</right_joint>
+      <left_joint>left_rear_wheel_joint</left_joint>
+      <right_joint>right_rear_wheel_joint</right_joint>
+      <wheel_separation>0.358</wheel_separation>
+      <wheel_diameter>0.068</wheel_diameter>
+      <max_wheel_torque>200.0</max_wheel_torque>
+      <max_wheel_acceleration>10.0</max_wheel_acceleration>
+      <publish_odom>1</publish_odom>
+      <publish_odom_tf>1</publish_odom_tf>
+      <publish_wheel_tf>1</publish_wheel_tf>
+      <odometry_topic>odom</odometry_topic>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_footprint</robot_base_frame>
+    </plugin>
+  </model>
+</sdf>

@@ -1,0 +1,65 @@
+[0.113s] Invoking command in '/home/albert/ag_car_ws/build/car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_controller -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_controller
+[0.284s] -- The C compiler identification is GNU 11.4.0
+[0.428s] -- The CXX compiler identification is GNU 11.4.0
+[0.454s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.636s] -- Detecting C compile features
+[0.636s] -- Detecting C compile features - done
+[0.642s] -- Detecting CXX compiler ABI info
+[0.782s] -- Detecting CXX compiler ABI info - done
+[0.815s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.816s] -- Detecting CXX compile features
+[0.817s] -- Detecting CXX compile features - done
+[0.848s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.236s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.702s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.930s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.974s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.025s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.096s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.198s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.423s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.505s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.758s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.789s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.929s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.094s] -- Found Threads: TRUE
+[3.232s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.251s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.498s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.503s] -- Added test 'lint_cmake' to check CMake code style
+[3.507s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.513s] -- Added test 'xmllint' to check XML markup files
+[3.523s] -- Configuring done (3.4s)
+[3.529s] -- Generating done (0.0s)
+[3.531s] -- Build files have been written to: /home/albert/ag_car_ws/build/car_controller
+[3.541s] Invoked command in '/home/albert/ag_car_ws/build/car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_controller -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_controller
+[3.543s] Invoking command in '/home/albert/ag_car_ws/build/car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_controller -- -j8 -l8
+[3.581s] Invoked command in '/home/albert/ag_car_ws/build/car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_controller -- -j8 -l8
+[3.635s] Invoking command in '/home/albert/ag_car_ws/build/car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_controller
+[3.641s] -- Install configuration: ""
+[3.641s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/config
+[3.642s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/config/car_controllers.yaml
+[3.642s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/config/ps3_controller_config.yaml
+[3.642s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/config/joystick_control_node.py
+[3.642s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/launch
+[3.642s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/launch/controller.launch.py
+[3.643s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/ament_index/resource_index/package_run_dependencies/car_controller
+[3.643s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/ament_index/resource_index/parent_prefix_path/car_controller
+[3.643s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/environment/ament_prefix_path.sh
+[3.643s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/environment/ament_prefix_path.dsv
+[3.643s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/environment/path.sh
+[3.644s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/environment/path.dsv
+[3.644s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/local_setup.bash
+[3.644s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/local_setup.sh
+[3.644s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/local_setup.zsh
+[3.644s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/local_setup.dsv
+[3.645s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/package.dsv
+[3.645s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/ament_index/resource_index/packages/car_controller
+[3.645s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/cmake/car_controllerConfig.cmake
+[3.645s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/cmake/car_controllerConfig-version.cmake
+[3.645s] -- Installing: /home/albert/ag_car_ws/install/car_controller/share/car_controller/package.xml
+[3.647s] Invoked command in '/home/albert/ag_car_ws/build/car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_controller

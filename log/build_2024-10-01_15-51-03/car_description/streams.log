@@ -1,0 +1,105 @@
+[0.077s] Invoking command in '/home/albert/ag_car_ws/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_description -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_description
+[0.227s] -- The C compiler identification is GNU 11.4.0
+[0.377s] -- The CXX compiler identification is GNU 11.4.0
+[0.406s] -- Detecting C compiler ABI info
+[0.539s] -- Detecting C compiler ABI info - done
+[0.572s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.573s] -- Detecting C compile features
+[0.574s] -- Detecting C compile features - done
+[0.581s] -- Detecting CXX compiler ABI info
+[0.725s] -- Detecting CXX compiler ABI info - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.756s] -- Detecting CXX compile features
+[0.757s] -- Detecting CXX compile features - done
+[0.782s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.185s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.623s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.893s] -- Added test 'lint_cmake' to check CMake code style
+[1.898s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.908s] -- Added test 'xmllint' to check XML markup files
+[1.917s] -- Configuring done (1.8s)
+[1.923s] -- Generating done (0.0s)
+[1.925s] -- Build files have been written to: /home/albert/ag_car_ws/build/car_description
+[1.933s] Invoked command in '/home/albert/ag_car_ws/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake /home/albert/ag_car_ws/src/car_description -DCMAKE_INSTALL_PREFIX=/home/albert/ag_car_ws/install/car_description
+[1.936s] Invoking command in '/home/albert/ag_car_ws/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_description -- -j8 -l8
+[1.968s] Invoked command in '/home/albert/ag_car_ws/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --build /home/albert/ag_car_ws/build/car_description -- -j8 -l8
+[2.030s] Invoking command in '/home/albert/ag_car_ws/build/car_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_description
+[2.034s] -- Install configuration: ""
+[2.034s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//launch
+[2.034s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//launch/car_display.launch.py
+[2.034s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//launch/car_gazebo.launch.py
+[2.034s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//launch/car_slam.launch.py
+[2.035s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes
+[2.035s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/right_finger.STL
+[2.035s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/triangular_link.STL
+[2.036s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/round_plate.STL
+[2.037s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/left_finger.STL
+[2.037s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/vertical_drive_arm.STL
+[2.038s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/astra.jpg
+[2.038s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/claw_support.STL
+[2.039s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/link.STL
+[2.040s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/r200.jpg
+[2.040s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/horizontal_arm.STL
+[2.042s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/r200.dae
+[2.043s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/astra.dae
+[2.058s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/basement.STL
+[2.060s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/forward_drive_arm.STL
+[2.063s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/right_tire.stl
+[2.065s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/lidar.stl
+[2.067s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/servo_plate.STL
+[2.067s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/plate.STL
+[2.071s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/base_plate.STL
+[2.074s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/left_tire copy.stl
+[2.075s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/left_tire.stl
+[2.077s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/right_tire copy.stl
+[2.078s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//meshes/pi_camera.STL
+[2.079s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models
+[2.079s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/ground_plane
+[2.079s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/ground_plane/model-1_2.sdf
+[2.079s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/ground_plane/model-1_3.sdf
+[2.080s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/ground_plane/model.config
+[2.080s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/ground_plane/model.sdf
+[2.080s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/ground_plane/model-1_4.sdf
+[2.080s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/basic_car_description
+[2.081s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/basic_car_description/car.sdf
+[2.081s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/sun
+[2.081s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/sun/model-1_2.sdf
+[2.081s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/sun/model-1_3.sdf
+[2.081s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/sun/model.config
+[2.081s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/sun/model.sdf
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//models/sun/model-1_4.sdf
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//rviz
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//rviz/car_config.rviz
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//urdf
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//urdf/car_common_properties.xacro
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//urdf/car.urdf
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//urdf/car_gazebo.xacro
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//urdf/car_ros2_control.xacro
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//urdf/car.xacro
+[2.082s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds
+[2.083s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/everything.world
+[2.083s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/test_world.world
+[2.083s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/smalltown.world
+[2.083s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/turtlebot3_world.world
+[2.083s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/empty_sky.world
+[2.083s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/new_world.world
+[2.083s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/house.world
+[2.083s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/new_world-old.world
+[2.084s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description//worlds/empty_world.world
+[2.084s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/ament_index/resource_index/package_run_dependencies/car_description
+[2.084s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/ament_index/resource_index/parent_prefix_path/car_description
+[2.084s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/environment/ament_prefix_path.sh
+[2.085s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/environment/ament_prefix_path.dsv
+[2.085s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/environment/path.sh
+[2.085s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/environment/path.dsv
+[2.085s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/local_setup.bash
+[2.085s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/local_setup.sh
+[2.086s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/local_setup.zsh
+[2.086s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/local_setup.dsv
+[2.086s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/package.dsv
+[2.086s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/ament_index/resource_index/packages/car_description
+[2.087s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/cmake/car_descriptionConfig.cmake
+[2.087s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/cmake/car_descriptionConfig-version.cmake
+[2.087s] -- Installing: /home/albert/ag_car_ws/install/car_description/share/car_description/package.xml
+[2.089s] Invoked command in '/home/albert/ag_car_ws/build/car_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/rad_ws/install/agbot_teleop:/home/albert/rad_ws/install/agbot_py:/home/albert/ws_moveit2/install/moveit_configs_utils:/home/albert/ws_moveit2/install/launch_param_builder:/home/albert/umov_ws/install/arduino_py_examples:/home/albert/udem2_ws/install/actions_py:/home/albert/udem2_ws/install/lifecycle_py:/home/albert/udem2_ws/install/executors_py:/home/albert/udem2_ws/install/components_py:/home/albert/udem_ws/install/turtlesim_catcher:/home/albert/udem_ws/install/my_py_pkg:/home/albert/udem_ws/install/lifecycle_py:/home/albert/bcdc_ws/install/agbot_teleop:/home/albert/bcdc_ws/install/agbot_py:/home/albert/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /home/albert/.local/bin/cmake --install /home/albert/ag_car_ws/build/car_description

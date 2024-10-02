@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/config
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/config/car_lds_2d.lua
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/launch
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/launch/cartographer.launch.py
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/rviz
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/rviz/car_cartographer.rviz
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/ament_index/resource_index/package_run_dependencies/car_cartographer
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/ament_index/resource_index/parent_prefix_path/car_cartographer
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/environment/ament_prefix_path.dsv
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/environment/path.sh
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/environment/path.dsv
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/local_setup.bash
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/local_setup.sh
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/local_setup.zsh
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/local_setup.dsv
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/package.dsv
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/ament_index/resource_index/packages/car_cartographer
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/cmake/car_cartographerConfig.cmake
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/cmake/car_cartographerConfig-version.cmake
+-- Installing: /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/package.xml

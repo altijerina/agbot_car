@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="agbot_car">
+   
+    <!-- Gazebo ros2_control plugin -->   
+    <gazebo>
+        ?
+        <plugin filename="libgazebo_ros_diff_drive.so" name="differential_drive_controller">
+            <robot_param>robot_description</robot_param>
+            <robot_param_node>robot_state_publisher</robot_param_node>
+            <parameters>$(find car_controller)/config/car_controllers.yaml</parameters>
+            <controller_manager_prefix_node_name>controller_manager</controller_manager_prefix_node_name>
+
+            <update_rate>100</update_rate>
+
+            <left_joint>left_rear_wheel_joint</left_joint>
+            <right_joint>right_rear_wheel_joint</right_joint>            
+
+            <wheel_separation>0.358</wheel_separation>
+            <wheel_diameter>0.068</wheel_diameter>
+
+            <max_wheel_torque>200.0</max_wheel_torque>
+            <max_wheel_acceleration>10.0</max_wheel_acceleration>           
+
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+
+            <odometry_topic>odom</odometry_topic>
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_footprint</robot_base_frame>            
+        </plugin>          
+    </gazebo>  
+
+    <gazebo reference="rgb_camera_link">
+        <sensor name="camera_sensor" type="camera">
+          <pose>0 0 0 0 0 0</pose>
+          <visualize>true</visualize>
+            <update_rate>60.0</update_rate>
+            <camera>
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>1024</width>
+                    <height>768</height>
+                </image>
+                <clip>
+                    <near>0.05</near>
+                    <far>8.0</far>
+                </clip>
+            </camera>            
+          <plugin name="camera_controller_base" filename="libgazebo_ros_camera.so">
+            <frame_name>rgb_camera_optical_b</frame_name>
+          </plugin>
+        </sensor>
+      </gazebo>      
+
+      <gazebo reference="laser_link">
+        <sensor name="laser" type="ray">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>640</samples>
+                        <min_angle>-3.14</min_angle>
+                        <max_angle>3.14</max_angle>
+                    </horizontal>
+
+                    <vertical>
+                        <samples>1</samples>
+                        <min_angle>0</min_angle>
+                        <max_angle>0</max_angle>
+                    </vertical>                    
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>12</max>
+                </range>
+            </ray>
+            <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <argument>~/out:=scan</argument>
+                </ros>
+                <output_type>sensor_msgs/LaserScan</output_type>
+                <frame_name>laser_frame</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>    
+
+    <!-- Robot Body -->
+    <gazebo reference="base_link">
+        <material>Gazebo/Blue</material>
+     </gazebo>    
+
+    <gazebo reference="caster_wheel_link">
+        <material>Gazebo/Yellow</material>
+        <mu1 value="0.0001"/>
+        <mu2 value="0.0001"/>
+    </gazebo>        
+
+     <gazebo reference="left_rear_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1 value="0.8"/>
+        <mu2 value="0.8"/>        
+     </gazebo>      
+     
+     <gazebo reference="right_rear_wheel_link">
+        <material>Gazebo/Grey</material>
+        <mu1 value="0.8"/>
+        <mu2 value="0.8"/>
+     </gazebo>       
+     
+     <gazebo reference="rgb_camera_link">
+        <material>Gazebo/SkyBlue</material>
+     </gazebo>       
+     
+     <gazebo reference="mast_link">
+        <material>Gazebo/Purple</material>   
+     </gazebo>
+
+</robot>
