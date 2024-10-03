@@ -1,5 +1,6 @@
 /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/config/car_lds_2d.lua
 /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/launch/cartographer.launch.py
+/home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/launch/occupancy_grid.launch.py
 /home/albert/ag_car_ws/install/car_cartographer/share/car_cartographer/rviz/car_cartographer.rviz
 /home/albert/ag_car_ws/install/car_cartographer/share/ament_index/resource_index/package_run_dependencies/car_cartographer
 /home/albert/ag_car_ws/install/car_cartographer/share/ament_index/resource_index/parent_prefix_path/car_cartographer
